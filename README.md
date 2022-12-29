@@ -1,27 +1,36 @@
-# ToDoApp
+## About 
+Angular "To Do" App created based on this <a href="https://www.youtube.com/watch?v=kzl4IKAC8O4&list=WL&index=14&t=251s" target="_blank">YouTube tutorial</a>  by 
+<a href="https://github.com/CodAffection" target="_blank">@CodAffection</a> 
+<br />
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+Plus, I have added Firebase Hosting and also Github Actions. <br />
 
-## Development server
+<img src="/screenshots/todoApp.png" width="500" />
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Project link
+https://todoapp-e27a1.web.app/
 
-## Code scaffolding
+## Project technologies
+* Angular
+* Typescript
+* Firebase Firestore Database
+* Firebase Hosting
+* GitHub Actions
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Project structure
+● src <br/>
++---● app <br />
+|  &nbsp; | <br />
+|  &nbsp;+--● todo <br />
+|  &nbsp; | &nbsp; |--todo.component.ts|.html|.css <br />
+|  &nbsp; |  <br />
+|  &nbsp; +--● services <br />
+|  &nbsp; | &nbsp;  |--todo.service.ts <br />
+|   | <br />
+|   |--app.module.ts (configured firebase connection) <br />
+| <br />
++---● environments <br />  
+|  &nbsp; |--environment.ts (saved firebase connection details) <br />
+| <br />
+|--index.html (cdn path for bootstrap and fa icons) <br />
+  
