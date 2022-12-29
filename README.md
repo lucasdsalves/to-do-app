@@ -1,11 +1,13 @@
 ## About 
 Angular "To Do" App created based on this <a href="https://www.youtube.com/watch?v=kzl4IKAC8O4&list=WL&index=14&t=251s" target="_blank">YouTube tutorial</a>  by 
-<a href="https://github.com/CodAffection" target="_blank">@CodAffection</a> 
+<a href="https://github.com/CodAffection" target="_blank">@CodAffection</a>.
 <br />
 
 Plus, I have added Firebase Hosting and also Github Actions. <br />
 
-<img src="/screenshots/todoApp.png" width="500" />
+<div align="center">
+<img src="/screenshots/todoApp.png" width="400" />
+</div> 
 
 ## Project link
 https://todoapp-e27a1.web.app/
@@ -29,8 +31,8 @@ https://todoapp-e27a1.web.app/
 |   | <br />
 |   |--app.module.ts (configured firebase connection) <br />
 | <br />
-+---● environments <br />  
-|  &nbsp; |--environment.ts (saved firebase connection details) <br />
++---● environments <br />
+|  &nbsp; | &nbsp; |--environment.ts (saved firebase connection details) <br />
 | <br />
 |--index.html (cdn path for bootstrap and fa icons) <br />
   
